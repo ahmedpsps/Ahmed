@@ -145,19 +145,39 @@ button:hover{
     main{
         display: grid;
         grid-template-rows: 1fr fr;
+        padding-left: 30px;
+        padding-right: 30px;
         
+
+    }
+    .name{
+        position: absolute;
+        top: 50px;
     }
     .active{
-        margin-left: 1000px;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        padding-top: 30px;
+        
     }
     .img{
         display: flex;
         justify-content: center;
-        
         width:80%;
        align-items: center;
     }
+    header{
+       
+       padding:20px;
+       position: relative;
+       gap: 100px;
+    }
+    .a_header{
+        margin-left:10px;
+
+    }
 }
+
 .img:hover{
     box-shadow: 0 0 70px #b74b4b;
     transform: scale(1.05);
