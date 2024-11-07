@@ -151,13 +151,14 @@ button:hover{
 
     }
     .name{
-        position: absolute;
-        top: 50px;
+        
+        top: 0px;
+        left: 50%;
     }
     .active{
-        display: grid;
-        grid-template-rows: 1fr 1fr;
-        padding-top: 30px;
+        padding-top: 10px;
+        font-size: 10px;
+        
         
     }
     .img{
@@ -165,17 +166,21 @@ button:hover{
         justify-content: center;
         width:80%;
        align-items: center;
+       left: 10%;
     }
     header{
-       
-       padding:20px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding:0px;
        position: relative;
-       gap: 100px;
+       gap: 0;
     }
     .a_header{
-        margin-left:10px;
-
+        margin-left:7px;
+        font-size: 13px;
     }
+    
 }
 
 .img:hover{
